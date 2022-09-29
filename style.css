@@ -15,9 +15,11 @@
 }
 .carousel_indicators:hover .glider-dot:hover{
     opacity: .5;
+    background: #000;
 }
 .carousel_indicators .glider-dot.active{
     opacity: 100%;
+    background: #000;
 }
 .arrow_prev, .arrow_next{
     position: absolute;
@@ -43,6 +45,7 @@
 .arrow_prev {
     left: -30px;
 }
+/* Carousel Grande */
 .ver-button{
     /*background-color: black;
     color: white;*/
@@ -66,3 +69,27 @@
 .content {
     margin: 50px;
 }
+
+/*.contain {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+.card-title{
+    position: absolute;
+    top: 50px;
+    left: 10%;
+    font-size: 42px;
+    color: #fff;
+    cursor: pointer;
+}
+.img_carousel{
+    filter: blur(3px);
+    cursor: pointer;
+}*/
+
+/*.card-title{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'SF UI Text';
+}*/

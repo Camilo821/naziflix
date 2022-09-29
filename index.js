@@ -2,7 +2,7 @@ window.addEventListener('load', function(){
     new Glider(document.querySelector('.carousel_list'), {
         slidesToShow: 3,
         slidesToScroll: 3,
-        draggable: true,
+        draggable: false,
         dots: '.carousel_indicators',
         arrows: {
           prev: '.arrow_prev',
