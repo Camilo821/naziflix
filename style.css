@@ -82,8 +82,8 @@
     font-size: 42px;
     color: #fff;
     cursor: pointer;
-}
-.img_carousel{
+}*/
+/*.img_carousel{
     filter: blur(3px);
     cursor: pointer;
 }*/
@@ -93,3 +93,21 @@
     font-size: 25px;
     font-family: 'SF UI Text';
 }*/
+.card-text, .card-title{
+    visibility: hidden;
+}
+.card-title:hover{
+    visibility: visible;
+}
+
+.card img {
+    transition:all .9s ease;
+    width:100%;
+}
+.card:hover img {
+-webkit-transform:scale(1.25);
+-moz-transform:scale(1.25);
+-ms-transform:scale(1.25);
+-o-transform:scale(1.25);
+transform:scale(1.25);
+}
